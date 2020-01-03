@@ -10,7 +10,8 @@
 
 #### 安装教程
 
-1.  安装wamp，注意需要设置php.ini文件，在wamp中可以直接打开：             	
+1.  安装wamp，注意需要设置php.ini文件，在wamp中可以直接打开：
+                     	
 	file_uploads = On      
 	memory_limit = 128M     
 	upload_max_filesize = 200M    
