@@ -10,14 +10,20 @@
 
 #### 安装教程
 
-1.  安装wamp，注意需要设置php.ini文件，在wamp中可以直接打开：![phpini设置](https://images.gitee.com/uploads/images/2020/0104/004317_669d1ba8_1850774.png "屏幕截图.png")
+1.  安装wamp，注意需要设置php.ini文件，在wamp中可以直接打开：	
+	file_uploads = On
+	memory_limit = 128M 
+	upload_max_filesize = 200M
+	post_max_size =280M  要比上面的大
+	upload_tmp_dir = "D:/soft/wamp/tmp" 有个找得到的路径就行,这是临时存放文件的路径，用于上传文件
 2.  文件下载功能需要开启php_fileinfo扩展，直接wamp-php-php扩展-选中php_fileinfo即可
-
+3.  文件需要放在wamp的安装目录里的www文件下
+4.  安装wamp可能会提示打不开，这是电脑缺少了某个文件，按照提示去拷贝下来就可以了
 
 #### 使用说明
 
 1.  MySQL导入netsec.sql数据库
-2.  打开“1231/index.php”即可
+2.  浏览器输入“/localhost/NetSec/1231/index.php”打开即可
 
 #### 参与贡献
 
