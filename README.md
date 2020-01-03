@@ -10,11 +10,11 @@
 
 #### 安装教程
 
-1.  安装wamp，注意需要设置php.ini文件，在wamp中可以直接打开：	
-	file_uploads = On
-	memory_limit = 128M 
-	upload_max_filesize = 200M
-	post_max_size =280M  要比上面的大
+1.  安装wamp，注意需要设置php.ini文件，在wamp中可以直接打开：       	
+	file_uploads = On      
+	memory_limit = 128M     
+	upload_max_filesize = 200M    
+	post_max_size =280M  要比上面的大    
 	upload_tmp_dir = "D:/soft/wamp/tmp" 有个找得到的路径就行,这是临时存放文件的路径，用于上传文件
 2.  文件下载功能需要开启php_fileinfo扩展，直接wamp-php-php扩展-选中php_fileinfo即可
 3.  文件需要放在wamp的安装目录里的www文件下
